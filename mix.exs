@@ -1,0 +1,50 @@
+defmodule MoonIcons.MixProject do
+  use Mix.Project
+
+  @version (case File.read("VERSION") do
+    {:ok, version} -> String.trim(version)
+    {:error, _} -> "0.0.0-development"
+  end)
+
+  def project do
+    [
+      app: :moon_icons,
+      version: @version,
+      elixir: "~> 1.14",
+      package: package(),
+      elixirc_paths: elixirc_paths(Mix.env()),
+      start_permanent: Mix.env() == :prod,
+      deps: deps()
+    ]
+  end
+
+  # Run "mix help compile.app" to learn about applications.
+  def application do
+    [
+      # extra_applications: [:logger]
+    ]
+  end
+
+
+  defp package do
+    [
+      organization: "coingaming",
+      licenses: ["MIT"],
+      files: ["lib_ex", "mix.exs", "README.md", "VERSION"],
+      links: %{
+        "GitHub" => "https://github.com/coingaming/moon-icons"
+      }
+    ]
+  end
+
+  # Run "mix help deps" to learn about dependencies.
+  defp deps do
+    [
+      {:surface, "~> 0.9.1"},
+      {:surface_formatter, "~> 0.7.0", only: [:dev, :test], runtime: false},
+      {:credo, "~> 1.5", only: [:dev, :test], runtime: false}
+    ]
+  end
+
+  defp elixirc_paths(_), do: ["lib_ex"]
+end
