@@ -33,7 +33,7 @@ defmodule Moon.Assets.Logos.LogoUtorg do
         vertical_align: @vertical_align
       )}
     >
-      <use href="/moon/assets/svgs/logos/logo-utorg.svg#item" />
+      <use href="/moon_icons/logos/logo-utorg.svg#item" />
     </svg>
     """
   end

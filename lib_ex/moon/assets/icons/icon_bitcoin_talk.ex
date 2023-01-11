@@ -26,7 +26,7 @@ defmodule Moon.Assets.Icons.IconBitcoinTalk do
       :on-click={@click}
       style={get_style(color: @color, background_color: @background_color, font_size: @font_size)}
     >
-      <use href="/moon/assets/svgs/icons/icon-bitcoin-talk.svg#item" />
+      <use href="/moon_icons/icons/icon-bitcoin-talk.svg#item" />
     </svg>
     """
   end

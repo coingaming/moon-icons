@@ -33,7 +33,7 @@ defmodule Moon.Assets.Logos.LogoLuckyslotsShort do
         vertical_align: @vertical_align
       )}
     >
-      <use href="/moon/assets/svgs/logos/logo-luckyslots-short.svg#item" />
+      <use href="/moon_icons/logos/logo-luckyslots-short.svg#item" />
     </svg>
     """
   end

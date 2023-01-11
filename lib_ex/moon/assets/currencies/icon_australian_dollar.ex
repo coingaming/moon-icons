@@ -33,7 +33,7 @@ defmodule Moon.Assets.Currencies.IconAustralianDollar do
         vertical_align: @vertical_align
       )}
     >
-      <use href="/moon/assets/svgs/currencies/icon-australian-dollar.svg#item" />
+      <use href="/moon_icons/currencies/icon-australian-dollar.svg#item" />
     </svg>
     """
   end

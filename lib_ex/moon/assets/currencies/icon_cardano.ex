@@ -33,7 +33,7 @@ defmodule Moon.Assets.Currencies.IconCardano do
         vertical_align: @vertical_align
       )}
     >
-      <use href="/moon/assets/svgs/currencies/icon-cardano.svg#item" />
+      <use href="/moon_icons/currencies/icon-cardano.svg#item" />
     </svg>
     """
   end

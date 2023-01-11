@@ -33,7 +33,7 @@ defmodule Moon.Assets.Duotones.NoMarkets do
         vertical_align: @vertical_align
       )}
     >
-      <use href="/moon/assets/svgs/duotones/no-markets.svg#item" />
+      <use href="/moon_icons/duotones/no-markets.svg#item" />
     </svg>
     """
   end

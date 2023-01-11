@@ -33,7 +33,7 @@ defmodule Moon.Assets.Duotones.NoEvents do
         vertical_align: @vertical_align
       )}
     >
-      <use href="/moon/assets/svgs/duotones/no-events.svg#item" />
+      <use href="/moon_icons/duotones/no-events.svg#item" />
     </svg>
     """
   end

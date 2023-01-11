@@ -33,7 +33,7 @@ defmodule Moon.Assets.Duotones.CasinoBonus do
         vertical_align: @vertical_align
       )}
     >
-      <use href="/moon/assets/svgs/duotones/casino-bonus.svg#item" />
+      <use href="/moon_icons/duotones/casino-bonus.svg#item" />
     </svg>
     """
   end

@@ -33,7 +33,7 @@ defmodule Moon.Assets.Patterns.PatternCircles do
         vertical_align: @vertical_align
       )}
     >
-      <use href="/moon/assets/svgs/patterns/pattern-circles.svg#item" />
+      <use href="/moon_icons/patterns/pattern-circles.svg#item" />
     </svg>
     """
   end

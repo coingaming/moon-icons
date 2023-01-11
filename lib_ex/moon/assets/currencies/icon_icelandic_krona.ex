@@ -33,7 +33,7 @@ defmodule Moon.Assets.Currencies.IconIcelandicKrona do
         vertical_align: @vertical_align
       )}
     >
-      <use href="/moon/assets/svgs/currencies/icon-icelandic-krona.svg#item" />
+      <use href="/moon_icons/currencies/icon-icelandic-krona.svg#item" />
     </svg>
     """
   end

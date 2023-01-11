@@ -33,7 +33,7 @@ defmodule Moon.Assets.Currencies.IconHongKongDollar do
         vertical_align: @vertical_align
       )}
     >
-      <use href="/moon/assets/svgs/currencies/icon-hong-kong-dollar.svg#item" />
+      <use href="/moon_icons/currencies/icon-hong-kong-dollar.svg#item" />
     </svg>
     """
   end

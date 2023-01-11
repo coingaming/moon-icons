@@ -33,7 +33,7 @@ defmodule Moon.Assets.Currencies.IconThaiBaht do
         vertical_align: @vertical_align
       )}
     >
-      <use href="/moon/assets/svgs/currencies/icon-thai-baht.svg#item" />
+      <use href="/moon_icons/currencies/icon-thai-baht.svg#item" />
     </svg>
     """
   end

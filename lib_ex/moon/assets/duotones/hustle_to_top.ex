@@ -33,7 +33,7 @@ defmodule Moon.Assets.Duotones.HustleToTop do
         vertical_align: @vertical_align
       )}
     >
-      <use href="/moon/assets/svgs/duotones/hustle-to-top.svg#item" />
+      <use href="/moon_icons/duotones/hustle-to-top.svg#item" />
     </svg>
     """
   end

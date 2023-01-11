@@ -26,7 +26,7 @@ defmodule Moon.Assets.Icons.IconBannerInfo do
       :on-click={@click}
       style={get_style(color: @color, background_color: @background_color, font_size: @font_size)}
     >
-      <use href="/moon/assets/svgs/icons/icon-banner-info.svg#item" />
+      <use href="/moon_icons/icons/icon-banner-info.svg#item" />
     </svg>
     """
   end

@@ -33,7 +33,7 @@ defmodule Moon.Assets.Patterns.PatternCrosses do
         vertical_align: @vertical_align
       )}
     >
-      <use href="/moon/assets/svgs/patterns/pattern-crosses.svg#item" />
+      <use href="/moon_icons/patterns/pattern-crosses.svg#item" />
     </svg>
     """
   end

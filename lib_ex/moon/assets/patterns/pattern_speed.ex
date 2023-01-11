@@ -33,7 +33,7 @@ defmodule Moon.Assets.Patterns.PatternSpeed do
         vertical_align: @vertical_align
       )}
     >
-      <use href="/moon/assets/svgs/patterns/pattern-speed.svg#item" />
+      <use href="/moon_icons/patterns/pattern-speed.svg#item" />
     </svg>
     """
   end

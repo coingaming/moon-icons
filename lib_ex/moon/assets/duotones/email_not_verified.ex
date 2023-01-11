@@ -33,7 +33,7 @@ defmodule Moon.Assets.Duotones.EmailNotVerified do
         vertical_align: @vertical_align
       )}
     >
-      <use href="/moon/assets/svgs/duotones/email-not-verified.svg#item" />
+      <use href="/moon_icons/duotones/email-not-verified.svg#item" />
     </svg>
     """
   end

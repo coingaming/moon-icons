@@ -33,7 +33,7 @@ defmodule Moon.Assets.Duotones.MoneyBack do
         vertical_align: @vertical_align
       )}
     >
-      <use href="/moon/assets/svgs/duotones/money-back.svg#item" />
+      <use href="/moon_icons/duotones/money-back.svg#item" />
     </svg>
     """
   end

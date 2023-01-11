@@ -36,7 +36,7 @@ defmodule Moon.Assets.Duotone do
         vertical_align: @vertical_align
       )}
     >
-      <use href={"/moon/assets/svgs/duotones/#{asset_name_to_filename(@name)}.svg#item"} />
+      <use href={"/moon_icons/duotones/#{asset_name_to_filename(@name)}.svg#item"} />
     </svg>
     """
   end

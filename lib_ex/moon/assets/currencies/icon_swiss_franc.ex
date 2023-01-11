@@ -33,7 +33,7 @@ defmodule Moon.Assets.Currencies.IconSwissFranc do
         vertical_align: @vertical_align
       )}
     >
-      <use href="/moon/assets/svgs/currencies/icon-swiss-franc.svg#item" />
+      <use href="/moon_icons/currencies/icon-swiss-franc.svg#item" />
     </svg>
     """
   end

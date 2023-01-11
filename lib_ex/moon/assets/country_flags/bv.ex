@@ -15,7 +15,7 @@ defmodule Moon.Assets.CountryFlags.FlagBV do
       class={"moon-country-flag", @class, "cursor-pointer": @click}
       :on-click={@click}
       style={get_style(color: @color, background_color: @background_color, font_size: @font_size)}
-      src="/moon/assets/svgs/country_flags/BV.svg"
+      src="/moon_icons/country_flags/BV.svg"
     />
     """
   end

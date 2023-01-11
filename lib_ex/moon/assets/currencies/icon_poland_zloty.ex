@@ -33,7 +33,7 @@ defmodule Moon.Assets.Currencies.IconPolandZloty do
         vertical_align: @vertical_align
       )}
     >
-      <use href="/moon/assets/svgs/currencies/icon-poland-zloty.svg#item" />
+      <use href="/moon_icons/currencies/icon-poland-zloty.svg#item" />
     </svg>
     """
   end

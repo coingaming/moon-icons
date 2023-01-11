@@ -33,7 +33,7 @@ defmodule Moon.Assets.Duotones.TrackYourProgress do
         vertical_align: @vertical_align
       )}
     >
-      <use href="/moon/assets/svgs/duotones/track-your-progress.svg#item" />
+      <use href="/moon_icons/duotones/track-your-progress.svg#item" />
     </svg>
     """
   end
