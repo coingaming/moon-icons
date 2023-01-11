@@ -2,9 +2,9 @@ defmodule MoonIcons.MixProject do
   use Mix.Project
 
   @version (case File.read("VERSION") do
-    {:ok, version} -> String.trim(version)
-    {:error, _} -> "0.0.0-development"
-  end)
+              {:ok, version} -> String.trim(version)
+              {:error, _} -> "0.0.0-development"
+            end)
 
   def project do
     [
@@ -24,7 +24,6 @@ defmodule MoonIcons.MixProject do
       # extra_applications: [:logger]
     ]
   end
-
 
   defp package do
     [

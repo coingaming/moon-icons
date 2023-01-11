@@ -3,7 +3,6 @@ defmodule MoonIcons do
   Some helper functions
   """
 
-
   @colors [
     "krillin-10",
     "krillin-60",

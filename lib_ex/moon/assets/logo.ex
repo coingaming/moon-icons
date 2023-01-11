@@ -3,8 +3,6 @@ defmodule Moon.Assets.Logo do
 
   use MoonIcons.StatelessComponent
 
-
-
   prop(name, :string)
   prop(click, :event)
   prop(class, :string)
