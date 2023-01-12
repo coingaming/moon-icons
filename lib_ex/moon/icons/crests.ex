@@ -1,6 +1,6 @@
 defmodule Moon.Icons.Crests do
   @moduledoc false
-  use Moon.StatelessComponent
+  use MoonIcons.StatelessComponent
 
   prop(click, :event)
   prop(class, :css_class)
@@ -8,8 +8,8 @@ defmodule Moon.Icons.Crests do
   # All the other props below are deprecated!
   # Please use only tailwind classes and the class prop
   prop(font_size, :string)
-  prop(color, :string, values: Moon.colors())
-  prop(background_color, :string, values: Moon.colors())
+  prop(color, :string, values: MoonIcons.colors())
+  prop(background_color, :string, values: MoonIcons.colors())
 
   def render(assigns) do
     ~F"""

@@ -36,8 +36,8 @@ const propsMap = `
   # All the other props below are deprecated!
   # Please use only tailwind classes and the class prop
   prop font_size, :string
-  prop color, :string, values: Moon.colors
-  prop background_color, :string, values: Moon.colors
+  prop color, :string, values: MoonIcons.colors
+  prop background_color, :string, values: MoonIcons.colors
   
 `;
 
@@ -114,16 +114,16 @@ const createAssetComponentFile = ({ file }: CreateAssetsComponentFileProps) => {
     .toLowerCase()}.ex`;
 
   const svgMap = `
-  <svg class={
-      "moon-icon",
-      @class,
-      "text-#{@color}": @color,
-      "bg-#{@background_color}": @background_color,
-      "text-#{@font_size}": @font_size,
-      "cursor-pointer": @click
-    } :on-click={@click} style={get_style(color: @color, background_color: @background_color, font_size: @font_size)}>
-    <use href="/moon_icons/svgs/icons_new/${file}.svg#item"></use>
-  </svg>
+    <svg class={
+        "moon-icon",
+        @class,
+        "text-#{@color}": @color,
+        "bg-#{@background_color}": @background_color,
+        "text-#{@font_size}": @font_size,
+        "cursor-pointer": @click
+      } :on-click={@click} style={get_style(color: @color, background_color: @background_color, font_size: @font_size)}>
+      <use href="/moon_icons/svgs/icons_new/${file}.svg#item"></use>
+    </svg>
   `;
 
   fs.writeFileSync(
@@ -131,7 +131,7 @@ const createAssetComponentFile = ({ file }: CreateAssetsComponentFileProps) => {
     `
 defmodule Moon.Icons.${getModuleName(file)} do
   @moduledoc false
-  use Moon.StatelessComponent
+  use MoonIcons.StatelessComponent
   ${propsMap}
   def render(assigns) do
     ~F"""
