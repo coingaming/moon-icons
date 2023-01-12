@@ -33,7 +33,7 @@ defmodule Moon.Assets.Duotones.NoInternet do
         vertical_align: @vertical_align
       )}
     >
-      <use href="/moon_icons/duotones/no-internet.svg#item" />
+      <use href="/moon_icons/svgs/duotones/no-internet.svg#item" />
     </svg>
     """
   end

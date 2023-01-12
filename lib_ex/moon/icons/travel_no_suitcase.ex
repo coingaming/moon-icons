@@ -25,7 +25,7 @@ defmodule Moon.Icons.TravelNoSuitcase do
       :on-click={@click}
       style={get_style(color: @color, background_color: @background_color, font_size: @font_size)}
     >
-      <use href="/moon_icons/icons_new/travel-no-suitcase.svg#item" />
+      <use href="/moon_icons/svgs/icons_new/travel-no-suitcase.svg#item" />
     </svg>
     """
   end

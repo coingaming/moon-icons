@@ -33,7 +33,7 @@ defmodule Moon.Assets.Crests.CrestSaoPaulo do
         vertical_align: @vertical_align
       )}
     >
-      <use href="/moon_icons/crests/crest-sao-paulo.svg#item" />
+      <use href="/moon_icons/svgs/crests/crest-sao-paulo.svg#item" />
     </svg>
     """
   end

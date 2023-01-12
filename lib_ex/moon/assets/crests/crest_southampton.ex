@@ -33,7 +33,7 @@ defmodule Moon.Assets.Crests.CrestSouthampton do
         vertical_align: @vertical_align
       )}
     >
-      <use href="/moon_icons/crests/crest-southampton.svg#item" />
+      <use href="/moon_icons/svgs/crests/crest-southampton.svg#item" />
     </svg>
     """
   end

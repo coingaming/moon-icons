@@ -33,7 +33,7 @@ defmodule Moon.Assets.Currencies.IconChineseYuan do
         vertical_align: @vertical_align
       )}
     >
-      <use href="/moon_icons/currencies/icon-chinese-yuan.svg#item" />
+      <use href="/moon_icons/svgs/currencies/icon-chinese-yuan.svg#item" />
     </svg>
     """
   end

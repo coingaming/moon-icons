@@ -33,7 +33,7 @@ defmodule Moon.Assets.Currencies.IconTron do
         vertical_align: @vertical_align
       )}
     >
-      <use href="/moon_icons/currencies/icon-tron.svg#item" />
+      <use href="/moon_icons/svgs/currencies/icon-tron.svg#item" />
     </svg>
     """
   end

@@ -26,7 +26,7 @@ defmodule Moon.Assets.Icons.IconChevronLeft do
       :on-click={@click}
       style={get_style(color: @color, background_color: @background_color, font_size: @font_size)}
     >
-      <use href="/moon_icons/icons/icon-chevron-left.svg#item" />
+      <use href="/moon_icons/svgs/icons/icon-chevron-left.svg#item" />
     </svg>
     """
   end

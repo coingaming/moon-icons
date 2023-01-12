@@ -26,7 +26,7 @@ defmodule Moon.Assets.Icons.IconESportsCallOfDuty do
       :on-click={@click}
       style={get_style(color: @color, background_color: @background_color, font_size: @font_size)}
     >
-      <use href="/moon_icons/icons/icon-e-sports-call-of-duty.svg#item" />
+      <use href="/moon_icons/svgs/icons/icon-e-sports-call-of-duty.svg#item" />
     </svg>
     """
   end

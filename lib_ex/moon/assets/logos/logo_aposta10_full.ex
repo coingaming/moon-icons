@@ -33,7 +33,7 @@ defmodule Moon.Assets.Logos.LogoAposta10Full do
         vertical_align: @vertical_align
       )}
     >
-      <use href="/moon_icons/logos/logo-aposta10-full.svg#item" />
+      <use href="/moon_icons/svgs/logos/logo-aposta10-full.svg#item" />
     </svg>
     """
   end

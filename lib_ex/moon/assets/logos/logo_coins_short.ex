@@ -33,7 +33,7 @@ defmodule Moon.Assets.Logos.LogoCoinsShort do
         vertical_align: @vertical_align
       )}
     >
-      <use href="/moon_icons/logos/logo-coins-short.svg#item" />
+      <use href="/moon_icons/svgs/logos/logo-coins-short.svg#item" />
     </svg>
     """
   end

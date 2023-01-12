@@ -33,7 +33,7 @@ defmodule Moon.Assets.Currencies.IconChilieanPeso do
         vertical_align: @vertical_align
       )}
     >
-      <use href="/moon_icons/currencies/icon-chiliean-peso.svg#item" />
+      <use href="/moon_icons/svgs/currencies/icon-chiliean-peso.svg#item" />
     </svg>
     """
   end

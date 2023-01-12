@@ -25,7 +25,7 @@ defmodule Moon.Icons.MediaPlay do
       :on-click={@click}
       style={get_style(color: @color, background_color: @background_color, font_size: @font_size)}
     >
-      <use href="/moon_icons/icons_new/media-play.svg#item" />
+      <use href="/moon_icons/svgs/icons_new/media-play.svg#item" />
     </svg>
     """
   end

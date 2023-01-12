@@ -33,7 +33,7 @@ defmodule Moon.Assets.Logos.LogoLivecasinoShort do
         vertical_align: @vertical_align
       )}
     >
-      <use href="/moon_icons/logos/logo-livecasino-short.svg#item" />
+      <use href="/moon_icons/svgs/logos/logo-livecasino-short.svg#item" />
     </svg>
     """
   end

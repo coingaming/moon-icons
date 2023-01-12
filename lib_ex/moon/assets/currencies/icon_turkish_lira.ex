@@ -33,7 +33,7 @@ defmodule Moon.Assets.Currencies.IconTurkishLira do
         vertical_align: @vertical_align
       )}
     >
-      <use href="/moon_icons/currencies/icon-turkish-lira.svg#item" />
+      <use href="/moon_icons/svgs/currencies/icon-turkish-lira.svg#item" />
     </svg>
     """
   end

@@ -34,7 +34,7 @@ defmodule Moon.Assets.Currency do
         vertical_align: @vertical_align
       )}
     >
-      <use href={"/moon_icons/currencies/#{asset_name_to_filename(@name)}.svg#item"} />
+      <use href={"/moon_icons/svgs/currencies/#{asset_name_to_filename(@name)}.svg#item"} />
     </svg>
     """
   end

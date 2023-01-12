@@ -33,7 +33,7 @@ defmodule Moon.Assets.Duotones.Gift do
         vertical_align: @vertical_align
       )}
     >
-      <use href="/moon_icons/duotones/gift.svg#item" />
+      <use href="/moon_icons/svgs/duotones/gift.svg#item" />
     </svg>
     """
   end

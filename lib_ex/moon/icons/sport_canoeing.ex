@@ -25,7 +25,7 @@ defmodule Moon.Icons.SportCanoeing do
       :on-click={@click}
       style={get_style(color: @color, background_color: @background_color, font_size: @font_size)}
     >
-      <use href="/moon_icons/icons_new/sport-canoeing.svg#item" />
+      <use href="/moon_icons/svgs/icons_new/sport-canoeing.svg#item" />
     </svg>
     """
   end

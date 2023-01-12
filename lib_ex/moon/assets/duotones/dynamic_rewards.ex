@@ -33,7 +33,7 @@ defmodule Moon.Assets.Duotones.DynamicRewards do
         vertical_align: @vertical_align
       )}
     >
-      <use href="/moon_icons/duotones/dynamic-rewards.svg#item" />
+      <use href="/moon_icons/svgs/duotones/dynamic-rewards.svg#item" />
     </svg>
     """
   end

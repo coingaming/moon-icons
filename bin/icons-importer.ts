@@ -2,8 +2,8 @@ import * as fs from "fs";
 
 console.log("Running assets and icons importer");
 
-const rawDirIcons = "priv/static/svgs/icons_new";
-const exportDir = "lib/moon";
+const rawDirIcons = "svgs";
+const exportDir = "lib_ex/moon";
 
 const getFilesList = () =>
   fs.readdirSync(`${rawDirIcons}`).filter((x) => !x.includes(".gz"));
@@ -58,7 +58,7 @@ const getIconName = (s: string) =>
   s.replace(/([-_])/gi, "_").replace(".svg", "");
 
 const writeAssetsMapFile = ({ files }: WriteAssetsMapFileProps) => {
-  const newFilePath = `${exportDir}/helpers/icons.ex`;
+  const newFilePath = `${exportDir}_icons/helpers/icons.ex`;
 
   const groupsCodeTemp: { names: string[]; code: string } = {
     names: [],
@@ -122,7 +122,7 @@ const createAssetComponentFile = ({ file }: CreateAssetsComponentFileProps) => {
       "text-#{@font_size}": @font_size,
       "cursor-pointer": @click
     } :on-click={@click} style={get_style(color: @color, background_color: @background_color, font_size: @font_size)}>
-    <use href="/moon_icons/icons_new/${file}.svg#item"></use>
+    <use href="/moon_icons/svgs/icons_new/${file}.svg#item"></use>
   </svg>
   `;
 
@@ -178,81 +178,3 @@ files.map((file: string) => {
     file: file.replace(".svg", ""),
   });
 });
-
-const assetsDocDir = "../../lib/moon_web/pages/";
-
-const writeAssetsDocumentationPage = (pageContent: string) => {
-  if (!pageContent) {
-    return console.error("no content");
-  }
-  fs.writeFileSync(assetsDocDir + "icons_page_full_list.ex", pageContent);
-};
-
-const generateAssetsDocumentationPageContent = (modules: string[]): string => {
-  return `
-defmodule MoonWeb.Pages.IconsPageFullList do
-  @moduledoc false
-
-  use MoonWeb, :live_view
-
-  alias Moon.Autolayouts.TopToDown
-  alias Moon.Components.Heading
-  alias Moon.Helpers.Icons
-  alias Moon.Icon
-  alias MoonWeb.Components.Page
-
-  data breadcrumbs, :any,
-    default: [
-      %{
-        to: "/icons",
-        name: "Icons"
-      }
-    ]
-
-  def handle_params(_params, uri, socket) do
-    {:noreply, assign(socket, uri: uri)}
-  end
-
-  def render(assigns) do
-    ~F"""
-    <Page {=@theme_name} {=@active_page} {=@breadcrumbs} {=@direction}>
-      <TopToDown>
-        <Heading size={56} class="mb-4">Icons</Heading>
-        
-
-        <div class="p-6 bg-gohan rounded">
-          <div
-            class="grid gap-4 overflow-hidden"
-            style="grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));"
-          >
-            {#for icon_name <- Icons.list_all()}
-              <div class="w-40 h-28 flex flex-col items-center">
-                <div class="flex grow justify-center items-center">
-                  <Icon name={icon_name} class="h-8 w-8" />
-                </div>
-                <h3 class="text-moon-12 mx-2 mb-2 text-trunks" title={icon_name}>{icon_name}</h3>
-              </div>
-            {/for}
-          </div>
-        </div>
-
-      </TopToDown>
-    </Page>
-    """
-  end
-end
-    `;
-};
-
-const generateAssetsDocumentationPage = (files: string[]) => {
-  const modules = files
-    .sort(caseInsensitiveCompare)
-    .map((f: string) => getModuleName(f));
-  const pageContent = generateAssetsDocumentationPageContent(modules);
-  writeAssetsDocumentationPage(pageContent);
-};
-
-(() => {
-  const files = getFilesList();
-  generateAssetsDocumentationPage(files);
-})();

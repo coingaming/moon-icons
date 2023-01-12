@@ -33,7 +33,7 @@ defmodule Moon.Assets.Duotones.ClaimedReward do
         vertical_align: @vertical_align
       )}
     >
-      <use href="/moon_icons/duotones/claimed-reward.svg#item" />
+      <use href="/moon_icons/svgs/duotones/claimed-reward.svg#item" />
     </svg>
     """
   end

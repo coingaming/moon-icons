@@ -26,7 +26,7 @@ defmodule Moon.Assets.Icons.IconArrowDiagonalUpRight do
       :on-click={@click}
       style={get_style(color: @color, background_color: @background_color, font_size: @font_size)}
     >
-      <use href="/moon_icons/icons/icon-arrow-diagonal-up-right.svg#item" />
+      <use href="/moon_icons/svgs/icons/icon-arrow-diagonal-up-right.svg#item" />
     </svg>
     """
   end

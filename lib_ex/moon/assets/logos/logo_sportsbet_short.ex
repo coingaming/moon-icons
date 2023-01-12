@@ -33,7 +33,7 @@ defmodule Moon.Assets.Logos.LogoSportsbetShort do
         vertical_align: @vertical_align
       )}
     >
-      <use href="/moon_icons/logos/logo-sportsbet-short.svg#item" />
+      <use href="/moon_icons/svgs/logos/logo-sportsbet-short.svg#item" />
     </svg>
     """
   end

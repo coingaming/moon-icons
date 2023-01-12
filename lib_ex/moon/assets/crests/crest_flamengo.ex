@@ -33,7 +33,7 @@ defmodule Moon.Assets.Crests.CrestFlamengo do
         vertical_align: @vertical_align
       )}
     >
-      <use href="/moon_icons/crests/crest-flamengo.svg#item" />
+      <use href="/moon_icons/svgs/crests/crest-flamengo.svg#item" />
     </svg>
     """
   end

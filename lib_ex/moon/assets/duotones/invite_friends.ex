@@ -33,7 +33,7 @@ defmodule Moon.Assets.Duotones.InviteFriends do
         vertical_align: @vertical_align
       )}
     >
-      <use href="/moon_icons/duotones/invite-friends.svg#item" />
+      <use href="/moon_icons/svgs/duotones/invite-friends.svg#item" />
     </svg>
     """
   end

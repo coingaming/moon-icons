@@ -33,7 +33,7 @@ defmodule Moon.Assets.Duotones.NoReward do
         vertical_align: @vertical_align
       )}
     >
-      <use href="/moon_icons/duotones/no-reward.svg#item" />
+      <use href="/moon_icons/svgs/duotones/no-reward.svg#item" />
     </svg>
     """
   end

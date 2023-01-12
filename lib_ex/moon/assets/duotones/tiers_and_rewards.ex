@@ -33,7 +33,7 @@ defmodule Moon.Assets.Duotones.TiersAndRewards do
         vertical_align: @vertical_align
       )}
     >
-      <use href="/moon_icons/duotones/tiers-and-rewards.svg#item" />
+      <use href="/moon_icons/svgs/duotones/tiers-and-rewards.svg#item" />
     </svg>
     """
   end

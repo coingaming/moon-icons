@@ -33,7 +33,7 @@ defmodule Moon.Assets.Logos.LogoBitcasinoFull do
         vertical_align: @vertical_align
       )}
     >
-      <use href="/moon_icons/logos/logo-bitcasino-full.svg#item" />
+      <use href="/moon_icons/svgs/logos/logo-bitcasino-full.svg#item" />
     </svg>
     """
   end
