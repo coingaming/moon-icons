@@ -29,6 +29,8 @@ jobs:
       - run:
           command: mix format --check-formatted
       - run:
+          command: mix surface.format --check-formatted
+      - run:
           command: mix credo
 
 workflows:

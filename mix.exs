@@ -9,6 +9,7 @@ defmodule MoonIcons.MixProject do
   def project do
     [
       app: :moon_icons,
+      description: "Icons used in Moon Design system - both aka-components and svg files",
       version: @version,
       elixir: "~> 1.14",
       package: package(),
@@ -27,9 +28,9 @@ defmodule MoonIcons.MixProject do
 
   defp package do
     [
-      organization: "coingaming",
+      name: "moon_icons",
       licenses: ["MIT"],
-      files: ["lib_ex", "priv", "svgs", "mix.exs", "README.md", "VERSION"],
+      files: ["lib_ex", "priv", "mix.exs", "README.md", "VERSION"],
       links: %{
         "GitHub" => "https://github.com/coingaming/moon-icons"
       }
@@ -41,7 +42,8 @@ defmodule MoonIcons.MixProject do
     [
       {:surface, "~> 0.9.1"},
       {:surface_formatter, "~> 0.7.0", only: [:dev, :test], runtime: false},
-      {:credo, "~> 1.5", only: [:dev, :test], runtime: false}
+      {:credo, "~> 1.5", only: [:dev, :test], runtime: false},
+      {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
     ]
   end
 
