@@ -1,4 +1,4 @@
-defmodule Moon.Icons.ClubhouseGames do
+defmodule Moon.Icons.Other66Free do
   @moduledoc false
   use MoonIcons.StatelessComponent
 
@@ -25,7 +25,7 @@ defmodule Moon.Icons.ClubhouseGames do
       :on-click={@click}
       style={get_style(color: @color, background_color: @background_color, font_size: @font_size)}
     >
-      <use href="/moon_icons/svgs/icons_new/clubhouse-games.svg#item" />
+      <use href="/moon_icons/svgs/icons_new/other66-free.svg#item" />
     </svg>
     """
   end

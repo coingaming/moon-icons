@@ -1,4 +1,4 @@
-defmodule Moon.Icons.TimeCalendarSucsess do
+defmodule Moon.Icons.TravelYacht do
   @moduledoc false
   use MoonIcons.StatelessComponent
 
@@ -25,7 +25,7 @@ defmodule Moon.Icons.TimeCalendarSucsess do
       :on-click={@click}
       style={get_style(color: @color, background_color: @background_color, font_size: @font_size)}
     >
-      <use href="/moon_icons/svgs/icons_new/time-calendar-sucsess.svg#item" />
+      <use href="/moon_icons/svgs/icons_new/travel-yacht.svg#item" />
     </svg>
     """
   end

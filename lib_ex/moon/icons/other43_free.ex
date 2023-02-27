@@ -1,4 +1,4 @@
-defmodule Moon.Icons.MediaGif do
+defmodule Moon.Icons.Other43Free do
   @moduledoc false
   use MoonIcons.StatelessComponent
 
@@ -25,7 +25,7 @@ defmodule Moon.Icons.MediaGif do
       :on-click={@click}
       style={get_style(color: @color, background_color: @background_color, font_size: @font_size)}
     >
-      <use href="/moon_icons/svgs/icons_new/media-gif.svg#item" />
+      <use href="/moon_icons/svgs/icons_new/other43-free.svg#item" />
     </svg>
     """
   end

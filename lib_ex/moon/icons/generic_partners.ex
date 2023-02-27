@@ -1,4 +1,4 @@
-defmodule Moon.Icons.TextIncertLine do
+defmodule Moon.Icons.GenericPartners do
   @moduledoc false
   use MoonIcons.StatelessComponent
 
@@ -25,7 +25,7 @@ defmodule Moon.Icons.TextIncertLine do
       :on-click={@click}
       style={get_style(color: @color, background_color: @background_color, font_size: @font_size)}
     >
-      <use href="/moon_icons/svgs/icons_new/text-incert-line.svg#item" />
+      <use href="/moon_icons/svgs/icons_new/generic-partners.svg#item" />
     </svg>
     """
   end

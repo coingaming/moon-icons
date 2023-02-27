@@ -8,8 +8,8 @@ defmodule Moon.Icons.Patterns do
   # All the other props below are deprecated!
   # Please use only tailwind classes and the class prop
   prop(font_size, :string)
-  prop(color, :string, values: MoonIcons.colors())
-  prop(background_color, :string, values: MoonIcons.colors())
+  prop(color, :string, values: colors())
+  prop(background_color, :string, values: colors())
 
   def render(assigns) do
     ~F"""

@@ -1,4 +1,4 @@
-defmodule Moon.Icons.GenericAmountNumber do
+defmodule Moon.Icons.OtherClaps do
   @moduledoc false
   use MoonIcons.StatelessComponent
 
@@ -25,7 +25,7 @@ defmodule Moon.Icons.GenericAmountNumber do
       :on-click={@click}
       style={get_style(color: @color, background_color: @background_color, font_size: @font_size)}
     >
-      <use href="/moon_icons/svgs/icons_new/generic-amount-number.svg#item" />
+      <use href="/moon_icons/svgs/icons_new/other-claps.svg#item" />
     </svg>
     """
   end

@@ -2,7 +2,7 @@ import * as fs from "fs";
 
 console.log("Running assets and icons importer");
 
-const rawDirIcons = "svgs";
+const rawDirIcons = "priv/static/svgs/icons_new";
 const exportDir = "lib_ex/moon";
 
 const getFilesList = () =>
@@ -36,8 +36,8 @@ const propsMap = `
   # All the other props below are deprecated!
   # Please use only tailwind classes and the class prop
   prop font_size, :string
-  prop color, :string, values: MoonIcons.colors
-  prop background_color, :string, values: MoonIcons.colors
+  prop color, :string, values: colors()
+  prop background_color, :string, values: colors()
   
 `;
 

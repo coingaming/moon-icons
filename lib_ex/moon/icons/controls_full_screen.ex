@@ -1,4 +1,4 @@
-defmodule Moon.Icons.SportBeachVolley do
+defmodule Moon.Icons.ControlsFullScreen do
   @moduledoc false
   use MoonIcons.StatelessComponent
 
@@ -25,7 +25,7 @@ defmodule Moon.Icons.SportBeachVolley do
       :on-click={@click}
       style={get_style(color: @color, background_color: @background_color, font_size: @font_size)}
     >
-      <use href="/moon_icons/svgs/icons_new/sport-beach-volley.svg#item" />
+      <use href="/moon_icons/svgs/icons_new/controls-full-screen.svg#item" />
     </svg>
     """
   end
