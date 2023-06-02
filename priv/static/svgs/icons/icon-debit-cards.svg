@@ -1,5 +1,5 @@
-<svg width="65" height="24" viewBox="0 0 65 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <symbol id="item" viewBox="0 0 65 24"  fill="none">
+<svg width="65" height="24" viewBox="0 0 65 24" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="item" viewBox="0 0 65 24" >
     
 <g clip-path="url(#clip0_3422_86352)">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M12 24C14.1857 24 16.235 23.4156 18 22.3946C14.4132 20.3198 12 16.4417 12 12C12 7.55831 14.4132 3.68024 18 1.60539C16.235 0.584366 14.1857 0 12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24Z" fill="#017AFF"/>

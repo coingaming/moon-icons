@@ -1,5 +1,5 @@
-<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <symbol id="item" viewBox="0 0 32 32"  fill="none">
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="item" viewBox="0 0 32 32" >
     
 <path d="M16 9C16.5523 9 17 9.44771 17 10L17 11C17 11.5523 16.5523 12 16 12C15.4477 12 15 11.5523 15 11L15 10C15 9.44771 15.4477 9 16 9Z" fill="currentColor"/>
 <path d="M17 15C17 14.4477 16.5523 14 16 14C15.4477 14 15 14.4477 15 15L15 23C15 23.5523 15.4477 24 16 24C16.5523 24 17 23.5523 17 23L17 15Z" fill="currentColor"/>

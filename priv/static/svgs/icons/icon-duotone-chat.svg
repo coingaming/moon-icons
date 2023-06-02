@@ -1,5 +1,5 @@
-<svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <symbol id="item" viewBox="0 0 20 19"  fill="none">
+<svg width="20" height="19" viewBox="0 0 20 19" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="item" viewBox="0 0 20 19" >
     
 <g id="icon-duotone-chat">
 <path id="Shadow" fill-rule="evenodd" clip-rule="evenodd" d="M16.3524 15.5108H13.1464V18.0759C13.1464 18.2054 13.0682 18.3224 12.9482 18.3721C12.9085 18.3885 12.8668 18.3965 12.8254 18.3965C12.7421 18.3965 12.6603 18.3638 12.5988 18.3026L9.80698 15.5108H1.60318C0.719187 15.5108 0 14.7916 0 13.9076V3.64724C0 2.76324 0.719187 2.04406 1.60318 2.04406H16.3524C17.2364 2.04406 17.9559 2.76324 17.9559 3.64724V13.9076C17.9559 14.7916 17.2364 15.5108 16.3524 15.5108Z" fill="currentColor" fill-opacity="0.1"/>

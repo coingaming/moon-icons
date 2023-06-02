@@ -6,7 +6,7 @@ const rawDirIcons = "priv/static/svgs/icons_new";
 const exportDir = "lib_ex/moon";
 
 const getFilesList = () =>
-  fs.readdirSync(`${rawDirIcons}`).filter((x) => !x.includes(".gz"));
+  fs.readdirSync(`${rawDirIcons}`).filter((x: string) => !x.includes(".gz"));
 
 const toCamel = (s: string) => {
   return s.replace(/([-_][a-z])/gi, ($1) => {
@@ -115,7 +115,7 @@ const createAssetComponentFile = ({ file }: CreateAssetsComponentFileProps) => {
 
   const svgMap = `
     <svg class={
-        "moon-icon",
+        "moon-icon fill-none",
         @class,
         "text-#{@color}": @color,
         "bg-#{@background_color}": @background_color,

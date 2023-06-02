@@ -1,5 +1,5 @@
-<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <symbol id="item" viewBox="0 0 20 20"  fill="none">
+<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="item" viewBox="0 0 20 20" >
     
 <rect width="20" height="20" rx="10" fill="#FDB500"/>
 <rect x="1.75" y="1.75" width="16.5" height="16.5" rx="8.25" fill="#FDB500" stroke="currentColor" stroke-width="1.5"/>

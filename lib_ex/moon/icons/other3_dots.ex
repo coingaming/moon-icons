@@ -15,7 +15,7 @@ defmodule Moon.Icons.Other3Dots do
     ~F"""
     <svg
       class={
-        "moon-icon",
+        "moon-icon fill-none",
         @class,
         "text-#{@color}": @color,
         "bg-#{@background_color}": @background_color,
