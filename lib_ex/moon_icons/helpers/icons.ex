@@ -17,9 +17,6 @@ defmodule MoonIcons.Helpers.Icons do
       media
       notifications
       other
-      other3
-      other43
-      other66
       security
       shop
       software
@@ -302,9 +299,11 @@ defmodule MoonIcons.Helpers.Icons do
          shop_buy_crypto
          shop_card
          shop_cart
+         shop_cash_back
          shop_coins
          shop_crypto_coin
          shop_crypto
+         shop_rebate
          shop_wallet
          shop_wireless_pay
          software_bug
@@ -752,6 +751,10 @@ defmodule MoonIcons.Helpers.Icons do
 
   def list_other do
     ~w(
+          other3_dots
+          other3_dots_horizontal
+          other43_free
+          other66_free
           other_claps
           other_crown
           other_flame
@@ -768,25 +771,6 @@ defmodule MoonIcons.Helpers.Icons do
           other_smile
           other_sun
           other_water
-        )
-  end
-
-  def list_other3 do
-    ~w(
-          other3_dots
-          other3_dots_horizontal
-        )
-  end
-
-  def list_other43 do
-    ~w(
-          other43_free
-        )
-  end
-
-  def list_other66 do
-    ~w(
-          other66_free
         )
   end
 
@@ -817,9 +801,11 @@ defmodule MoonIcons.Helpers.Icons do
           shop_buy_crypto
           shop_card
           shop_cart
+          shop_cash_back
           shop_coins
           shop_crypto
           shop_crypto_coin
+          shop_rebate
           shop_wallet
           shop_wireless_pay
         )
