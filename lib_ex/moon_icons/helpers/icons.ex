@@ -302,9 +302,11 @@ defmodule MoonIcons.Helpers.Icons do
          shop_buy_crypto
          shop_card
          shop_cart
+         shop_cash_back
          shop_coins
          shop_crypto_coin
          shop_crypto
+         shop_rebate
          shop_wallet
          shop_wireless_pay
          software_bug
@@ -817,9 +819,11 @@ defmodule MoonIcons.Helpers.Icons do
           shop_buy_crypto
           shop_card
           shop_cart
+          shop_cash_back
           shop_coins
           shop_crypto
           shop_crypto_coin
+          shop_rebate
           shop_wallet
           shop_wireless_pay
         )
