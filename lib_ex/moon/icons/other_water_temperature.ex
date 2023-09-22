@@ -25,7 +25,7 @@ defmodule Moon.Icons.OtherWaterTemperature do
       :on-click={@click}
       style={get_style(color: @color, background_color: @background_color, font_size: @font_size)}
     >
-      <use href="/moon_icons/svgs/icons_new/other_water_temperature.svg#item" />
+      <use href="/moon_icons/svgs/icons_new/other-water-temperature.svg#item" />
     </svg>
     """
   end
