@@ -17,13 +17,7 @@ defmodule MoonIcons.Helpers.Icons do
       media
       notifications
       other
-      otheragentsvg
-      otherplayersvg
-      otherwatertemperaturesvg
-      otherwavessvg
-      otherwindsvg
       security
-      securitypasswordsvg
       shop
       software
       sport
@@ -265,6 +259,7 @@ defmodule MoonIcons.Helpers.Icons do
          notifications_notifications
          notifications_question_mark
          notifications_settings
+         other_agent
          other_claps
          other_crown
          other_flame
@@ -274,28 +269,28 @@ defmodule MoonIcons.Helpers.Icons do
          other_lifebuoy
          other_lightning
          other_moon
+         other_player
          other_plug
          other_rewards
          other_rocket
          other_sad
          other_smile
          other_sun
+         other_water_temperature
          other_water
+         other_waves
+         other_wind
          other3_dots_horizontal
          other3_dots
          other43_free
          other66_free
-         other_agent
-         other_player
-         other_water_temperature
-         other_waves
-         other_wind
          security_bet_insurance
          security_key
          security_lock
          security_magnet
          security_passport_alert
          security_passport
+         security_password
          security_qr_code
          security_security_attention
          security_shield_secured
@@ -304,7 +299,6 @@ defmodule MoonIcons.Helpers.Icons do
          security_unlock
          security_verified_face
          security_verified
-         security_password
          shop_bag
          shop_bank
          shop_basket
@@ -767,6 +761,7 @@ defmodule MoonIcons.Helpers.Icons do
           other3_dots_horizontal
           other43_free
           other66_free
+          other_agent
           other_claps
           other_crown
           other_flame
@@ -776,6 +771,7 @@ defmodule MoonIcons.Helpers.Icons do
           other_lifebuoy
           other_lightning
           other_moon
+          other_player
           other_plug
           other_rewards
           other_rocket
@@ -783,35 +779,8 @@ defmodule MoonIcons.Helpers.Icons do
           other_smile
           other_sun
           other_water
-        )
-  end
-
-  def list_otheragentsvg do
-    ~w(
-          other_agent
-        )
-  end
-
-  def list_otherplayersvg do
-    ~w(
-          other_player
-        )
-  end
-
-  def list_otherwatertemperaturesvg do
-    ~w(
           other_water_temperature
-        )
-  end
-
-  def list_otherwavessvg do
-    ~w(
           other_waves
-        )
-  end
-
-  def list_otherwindsvg do
-    ~w(
           other_wind
         )
   end
@@ -824,6 +793,7 @@ defmodule MoonIcons.Helpers.Icons do
           security_magnet
           security_passport
           security_passport_alert
+          security_password
           security_qr_code
           security_security_attention
           security_shield
@@ -832,12 +802,6 @@ defmodule MoonIcons.Helpers.Icons do
           security_unlock
           security_verified
           security_verified_face
-        )
-  end
-
-  def list_securitypasswordsvg do
-    ~w(
-          security_password
         )
   end
 
