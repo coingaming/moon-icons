@@ -455,6 +455,7 @@ defmodule MoonIcons.Helpers.Icons do
          travel_beach_chair
          travel_bed
          travel_bill
+         travel_bus
          travel_hotel
          travel_luggage
          travel_meal
@@ -466,6 +467,7 @@ defmodule MoonIcons.Helpers.Icons do
          travel_seats
          travel_suitcase
          travel_swimming_pool
+         travel_train
          travel_wi_fi
          travel_yacht
       )
@@ -988,6 +990,7 @@ defmodule MoonIcons.Helpers.Icons do
           travel_beach_chair
           travel_bed
           travel_bill
+          travel_bus
           travel_hotel
           travel_luggage
           travel_meal
@@ -999,6 +1002,7 @@ defmodule MoonIcons.Helpers.Icons do
           travel_seats
           travel_suitcase
           travel_swimming_pool
+          travel_train
           travel_wi_fi
           travel_yacht
         )

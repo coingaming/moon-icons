@@ -1,14 +1,15 @@
 version: 2.1
 aliases:
-
-references:
-  images:
-    elixir: &ELIXIR_IMAGE heathmont/elixir-ci:1.14.0-otp-25-alpine
+  elixir_image: &elixir_image
+    image: heathmont/elixir-ci:1.14.0-otp-25-alpine
+    auth:
+      username: $DOCKER_USER 
+      password: $DOCKER_PASS
 
 jobs:
   code_quality:
     docker:
-      - image: *ELIXIR_IMAGE
+      - *elixir_image
     environment:
       MIX_ENV: test
     steps:
