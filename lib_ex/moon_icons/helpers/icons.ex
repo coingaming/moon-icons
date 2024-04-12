@@ -31,7 +31,9 @@ defmodule MoonIcons.Helpers.Icons do
   def list_all do
     ~w(
         arrows_boost
+         arrows_bottom_left_alternative
          arrows_bottom_left
+         arrows_bottom_right_alternative
          arrows_bottom_right
          arrows_chevron_down_double
          arrows_chevron_left_double
@@ -53,13 +55,15 @@ defmodule MoonIcons.Helpers.Icons do
          arrows_right_short
          arrows_right
          arrows_sorting
+         arrows_top_left_alternative
          arrows_top_left
+         arrows_top_right_alternative
          arrows_top_right
          arrows_transfer
          arrows_up
          arrows_update
          chart_area
-         chart_bar_alternitive
+         chart_bar_alternative
          chart_bar_vertical
          chart_bar
          chart_dashboard
@@ -92,6 +96,7 @@ defmodule MoonIcons.Helpers.Icons do
          controls_collapse
          controls_diagonals_insight
          controls_diagonals_outsight
+         controls_equals
          controls_expand_alt
          controls_expand
          controls_eye_crossed
@@ -102,6 +107,7 @@ defmodule MoonIcons.Helpers.Icons do
          controls_plus
          controls_vertical_double_chevron
          devices_bluetooth
+         devices_ios
          devices_joystick
          devices_keyboard
          devices_mac
@@ -142,9 +148,11 @@ defmodule MoonIcons.Helpers.Icons do
          generic_about
          generic_alarm_round
          generic_alarm
+         generic_all
          generic_bet
          generic_betslip
          generic_block
+         generic_bookmark_alternative
          generic_bookmark
          generic_browser
          generic_burger_regular
@@ -182,6 +190,7 @@ defmodule MoonIcons.Helpers.Icons do
          generic_search
          generic_settings
          generic_share_android
+         generic_share_arrow
          generic_share_ios_big
          generic_share_ios
          generic_star
@@ -199,9 +208,10 @@ defmodule MoonIcons.Helpers.Icons do
          mail_filter
          mail_flag
          mail_link
+         mail_relink
          mail_send_right
          mail_send
-         maps_compas
+         maps_compass
          maps_location
          maps_map
          maps_marker
@@ -209,6 +219,7 @@ defmodule MoonIcons.Helpers.Icons do
          maps_pin_add
          maps_pin_location
          maps_pin
+         maps_up_down
          maps_world
          media_auto_play
          media_css
@@ -216,6 +227,7 @@ defmodule MoonIcons.Helpers.Icons do
          media_exe
          media_fast_back
          media_fast_forward
+         media_flashlight
          media_gif_alternative
          media_headphones
          media_html
@@ -268,7 +280,9 @@ defmodule MoonIcons.Helpers.Icons do
          other_id
          other_lifebuoy
          other_lightning
+         other_live_casino
          other_moon
+         other_partial_refund
          other_player
          other_plug
          other_rewards
@@ -291,6 +305,7 @@ defmodule MoonIcons.Helpers.Icons do
          security_passport_alert
          security_passport
          security_password
+         security_qr_code_alternative
          security_qr_code
          security_security_attention
          security_shield_secured
@@ -305,11 +320,14 @@ defmodule MoonIcons.Helpers.Icons do
          shop_buy_crypto
          shop_card
          shop_cart
-         shop_cash_back
+         shop_cash_in
+         shop_cash_out
+         shop_cashback
          shop_coins
          shop_crypto_coin
          shop_crypto
          shop_rebate
+         shop_wallet_alternative
          shop_wallet
          shop_wireless_pay
          software_bug
@@ -330,6 +348,7 @@ defmodule MoonIcons.Helpers.Icons do
          software_sorting
          software_turn_off
          software_wrench
+         sport_afl
          sport_american_football
          sport_archery
          sport_athletics
@@ -339,10 +358,10 @@ defmodule MoonIcons.Helpers.Icons do
          sport_basketball
          sport_beach_volleyball
          sport_biathlon
+         sport_boat_racing
          sport_bombay
          sport_bowls
          sport_boxing
-         sport_c_s_g_o
          sport_call_of_duty
          sport_canoeing
          sport_car_racing
@@ -350,15 +369,16 @@ defmodule MoonIcons.Helpers.Icons do
          sport_chess
          sport_cricket
          sport_cross_country
+         sport_cs_go
          sport_curling
          sport_cycling
          sport_darts
          sport_diving
          sport_dota2
          sport_e_ice_hockey
-         sport_e_n_b_a
-         sport_e_soccer
+         sport_enba
          sport_equestrian
+         sport_esoccer
          sport_esport_generic
          sport_featured
          sport_fencing
@@ -380,8 +400,8 @@ defmodule MoonIcons.Helpers.Icons do
          sport_kabaddi
          sport_king_of_glory
          sport_lacrosse
-         sport_lo_l
-         sport_m_m_a
+         sport_lol
+         sport_mma
          sport_motor
          sport_motorcycle_racing
          sport_nordic_combined
@@ -411,6 +431,7 @@ defmodule MoonIcons.Helpers.Icons do
          sport_waterpolo
          sport_weightlifting
          sport_wrestling
+         sport_zed_run
          text_ancor
          text_attach
          text_bold
@@ -419,7 +440,7 @@ defmodule MoonIcons.Helpers.Icons do
          text_center
          text_clear_formatting
          text_cut
-         text_descrease_indent
+         text_decrease_indent
          text_hashtag
          text_increase_indent
          text_insert_line
@@ -456,6 +477,8 @@ defmodule MoonIcons.Helpers.Icons do
          travel_bed
          travel_bill
          travel_bus
+         travel_coctail
+         travel_desk_bell
          travel_hotel
          travel_luggage
          travel_meal
@@ -477,7 +500,9 @@ defmodule MoonIcons.Helpers.Icons do
     ~w(
           arrows_boost
           arrows_bottom_left
+          arrows_bottom_left_alternative
           arrows_bottom_right
+          arrows_bottom_right_alternative
           arrows_chevron_down_double
           arrows_chevron_left_double
           arrows_chevron_right_double
@@ -499,7 +524,9 @@ defmodule MoonIcons.Helpers.Icons do
           arrows_right_short
           arrows_sorting
           arrows_top_left
+          arrows_top_left_alternative
           arrows_top_right
+          arrows_top_right_alternative
           arrows_transfer
           arrows_up
           arrows_update
@@ -510,7 +537,7 @@ defmodule MoonIcons.Helpers.Icons do
     ~w(
           chart_area
           chart_bar
-          chart_bar_alternitive
+          chart_bar_alternative
           chart_bar_vertical
           chart_dashboard
           chart_fin
@@ -552,6 +579,7 @@ defmodule MoonIcons.Helpers.Icons do
           controls_collapse
           controls_diagonals_insight
           controls_diagonals_outsight
+          controls_equals
           controls_expand
           controls_expand_alt
           controls_eye
@@ -567,6 +595,7 @@ defmodule MoonIcons.Helpers.Icons do
   def list_devices do
     ~w(
           devices_bluetooth
+          devices_ios
           devices_joystick
           devices_keyboard
           devices_mac
@@ -617,10 +646,12 @@ defmodule MoonIcons.Helpers.Icons do
           generic_about
           generic_alarm
           generic_alarm_round
+          generic_all
           generic_bet
           generic_betslip
           generic_block
           generic_bookmark
+          generic_bookmark_alternative
           generic_browser
           generic_burger_regular
           generic_burger_zig
@@ -657,6 +688,7 @@ defmodule MoonIcons.Helpers.Icons do
           generic_search
           generic_settings
           generic_share_android
+          generic_share_arrow
           generic_share_ios
           generic_share_ios_big
           generic_star
@@ -679,6 +711,7 @@ defmodule MoonIcons.Helpers.Icons do
           mail_filter_crossed
           mail_flag
           mail_link
+          mail_relink
           mail_send
           mail_send_right
         )
@@ -686,7 +719,7 @@ defmodule MoonIcons.Helpers.Icons do
 
   def list_maps do
     ~w(
-          maps_compas
+          maps_compass
           maps_location
           maps_map
           maps_marker
@@ -694,6 +727,7 @@ defmodule MoonIcons.Helpers.Icons do
           maps_pin
           maps_pin_add
           maps_pin_location
+          maps_up_down
           maps_world
         )
   end
@@ -706,6 +740,7 @@ defmodule MoonIcons.Helpers.Icons do
           media_exe
           media_fast_back
           media_fast_forward
+          media_flashlight
           media_gif_alternative
           media_headphones
           media_html
@@ -772,7 +807,9 @@ defmodule MoonIcons.Helpers.Icons do
           other_id
           other_lifebuoy
           other_lightning
+          other_live_casino
           other_moon
+          other_partial_refund
           other_player
           other_plug
           other_rewards
@@ -797,6 +834,7 @@ defmodule MoonIcons.Helpers.Icons do
           security_passport_alert
           security_password
           security_qr_code
+          security_qr_code_alternative
           security_security_attention
           security_shield
           security_shield_secured
@@ -815,12 +853,15 @@ defmodule MoonIcons.Helpers.Icons do
           shop_buy_crypto
           shop_card
           shop_cart
-          shop_cash_back
+          shop_cash_in
+          shop_cash_out
+          shop_cashback
           shop_coins
           shop_crypto
           shop_crypto_coin
           shop_rebate
           shop_wallet
+          shop_wallet_alternative
           shop_wireless_pay
         )
   end
@@ -850,6 +891,7 @@ defmodule MoonIcons.Helpers.Icons do
 
   def list_sport do
     ~w(
+          sport_afl
           sport_american_football
           sport_archery
           sport_athletics
@@ -859,10 +901,10 @@ defmodule MoonIcons.Helpers.Icons do
           sport_basketball
           sport_beach_volleyball
           sport_biathlon
+          sport_boat_racing
           sport_bombay
           sport_bowls
           sport_boxing
-          sport_c_s_g_o
           sport_call_of_duty
           sport_canoeing
           sport_car_racing
@@ -870,15 +912,16 @@ defmodule MoonIcons.Helpers.Icons do
           sport_chess
           sport_cricket
           sport_cross_country
+          sport_cs_go
           sport_curling
           sport_cycling
           sport_darts
           sport_diving
           sport_dota2
           sport_e_ice_hockey
-          sport_e_n_b_a
-          sport_e_soccer
+          sport_enba
           sport_equestrian
+          sport_esoccer
           sport_esport_generic
           sport_featured
           sport_fencing
@@ -900,8 +943,8 @@ defmodule MoonIcons.Helpers.Icons do
           sport_kabaddi
           sport_king_of_glory
           sport_lacrosse
-          sport_lo_l
-          sport_m_m_a
+          sport_lol
+          sport_mma
           sport_motor
           sport_motorcycle_racing
           sport_nordic_combined
@@ -931,6 +974,7 @@ defmodule MoonIcons.Helpers.Icons do
           sport_waterpolo
           sport_weightlifting
           sport_wrestling
+          sport_zed_run
         )
   end
 
@@ -944,7 +988,7 @@ defmodule MoonIcons.Helpers.Icons do
           text_center
           text_clear_formatting
           text_cut
-          text_descrease_indent
+          text_decrease_indent
           text_hashtag
           text_increase_indent
           text_insert_line
@@ -991,6 +1035,8 @@ defmodule MoonIcons.Helpers.Icons do
           travel_bed
           travel_bill
           travel_bus
+          travel_coctail
+          travel_desk_bell
           travel_hotel
           travel_luggage
           travel_meal

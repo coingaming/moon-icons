@@ -38,7 +38,7 @@ Now, for icons importing (from /svg folder)
 ## Importing icons from moom-react
 ```bash
   rm priv/static/svgs/icons_new/*.svg
-  cp ../moon-design/workspaces/icons/raw/imported/*.svg priv/static/svgs/icons_new/
+  cp ../moon-icons-react/svg/*.svg priv/static/svgs/icons_new/
   cd priv/static/svgs/icons_new/
   # linux
   # for file in ./* ; do mv "$file" "$(echo $file|sed -e 's/\([A-Z]\)/_\L\1/g' -e 's/^.\/_//')" ; done
