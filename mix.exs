@@ -29,7 +29,7 @@ defmodule MoonIcons.MixProject do
   defp package do
     [
       name: "moon_icons",
-      licenses: ["GPL-3.0-only"],
+      licenses: ["MIT"],
       files: ["lib_ex", "priv", "mix.exs", "README.md", "VERSION"],
       links: %{
         "GitHub" => "https://github.com/coingaming/moon-icons"
