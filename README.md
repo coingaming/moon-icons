@@ -35,7 +35,7 @@ For development purposes (e.g running bin/icons-importer.ts)
 
 Now, for icons importing (from /svg folder) 
 
-## Importing icons from moom-react
+## Importing icons from moon-react
 ```bash
   rm priv/static/svgs/icons_new/*.svg
   cp ../moon-icons-react/svg/*.svg priv/static/svgs/icons_new/
